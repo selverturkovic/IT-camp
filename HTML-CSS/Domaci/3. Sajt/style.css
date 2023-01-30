@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.head {
+  width: 100%;
+  background-color: rgb(13, 101, 202);
+  color: white;
+  padding: 1px 1px 1px 1px;
+  white-space: nowrap;
+  font-size: 16px;
+  margin: auto;
+}
+span.arsh {
+  background-color: rgb(13, 101, 202);
+  text-align: end;
+  margin-left: 185px;
+  margin-right: 185px;
+}
+img.logo {
+  height: 17px;
+  width: 25px;
+  padding-top: 1px;
+  object-position: right;
+  margin: 0px;
+  padding: none;
+}
+button.free {
+  color: white;
+  border: none;
+  background-color: rgb(4, 179, 179, 0.9);
+  height: 20px;
+  cursor: pointer;
+}
+span.made {
+  color: rgb(167, 167, 201);
+}
+.arsha {
+  width: 100%;
+  background-color: rgb(8, 80, 161);
+  color: white;
+  font-size: 25px;
+  padding: 10px 10px 10px 40px;
+  white-space: nowrap;
+}
+.arsha a {
+  text-align: end;
+}
+.span {
+  font-size: 10px;
+  margin-left: 200px;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  text-align: end;
+}
+.button {
+  background-color: rgb(8, 80, 161);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(0, 132, 255);
+  text-align: end;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p.magnam {
+  text-align: center;
+  font-size: 12px;
+}
+div.div {
+  margin-left: 40px;
+  padding-top: 60px;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  box-shadow: 3px 3px 12px rgba(4, 8, 20, 0.6);
+  height: 170px;
+  width: 170px;
+  display: inline-block;
+}
+
+div.div:nth-of-type(3) {
+  margin-left: 110px;
+}
+p.text {
+  font-size: 10px;
+  padding: 10px 10px 10px 10px;
+}
+h3 {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+img.arrow {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  float: right;
+}
