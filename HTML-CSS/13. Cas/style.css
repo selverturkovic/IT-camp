@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap"); /* Drugi nacin importovanja 
+eksternog fonta slova */
+
+* {
+  margin: 0;
+}
+body {
+  /* 3 vrednosti da pronadje bilo koju */
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Mulish", sans-serif;
+}
+.main {
+  background-color: coral;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 0px;
+  padding: 20px;
+  /* display: inline-block; */
+}
+/* .second { */
+/* sakrivanje kontenjera, ali na njegovo mesto  moze da stane nesto */
+/* display: none; */
+
+/* visibility: hidden;  ne moze nista na to mesto*/
+/* } */
+.main h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.main p {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 22px;
+  text-align-last: right;
+  line-height: 30px;
+}
+.icon {
+  color: blue;
+  font-size: x-large;
+  margin-left: 46.7%;
+}

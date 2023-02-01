@@ -10,10 +10,13 @@
   white-space: nowrap;
   font-size: 16px;
   margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
 span.arsh {
   background-color: rgb(13, 101, 202);
-  text-align: end;
+  text-align: right;
   margin-left: 185px;
   margin-right: 185px;
 }
@@ -42,20 +45,21 @@ span.made {
   font-size: 25px;
   padding: 10px 10px 10px 40px;
   white-space: nowrap;
-}
-.arsha a {
-  text-align: end;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
 .span {
   font-size: 10px;
   margin-left: 200px;
   color: white;
+  text-align: right;
 }
 a {
   color: white;
   text-decoration: none;
   padding: 5px;
-  text-align: end;
+  text-align: right;
 }
 .button {
   background-color: rgb(8, 80, 161);
