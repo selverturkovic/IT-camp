@@ -38,5 +38,11 @@ body {
 .icon {
   color: blue;
   font-size: x-large;
-  margin-left: 46.7%;
+}
+.icon1 {
+  text-align: center;
+}
+.opis {
+  font-size: larger;
+  margin-left: 10px;
 }
