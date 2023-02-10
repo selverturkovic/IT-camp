@@ -58,7 +58,7 @@
         </div>
         <div class="child-two">
           <form action="./index.html" target="_blank">
-            <label for="name">First name</label>
+            <label for="name">First name <span>*</span></label>
             <input
               class="forma"
               type="text"
@@ -67,7 +67,7 @@
               placeholder="First name"
               required
             />
-            <label for="lastname">Last name</label>
+            <label for="lastname">Last name <span>*</span></label>
             <input
               class="forma"
               type="text"
@@ -76,7 +76,7 @@
               placeholder="Last name"
               required
             />
-            <label for="email">Email address</label>
+            <label for="email">Email address <span>*</span></label>
             <input
               class="forma"
               type="email"
@@ -93,7 +93,7 @@
               id="Company"
               placeholder="Company name"
             />
-            <label for="Role">Role</label>
+            <label for="Role" required>Role <span>*</span></label>
             <select class="forma" name="Role" id="Role" required>
               <option value="role" selected>Role</option>
               <option value="Partner_developer">
@@ -107,7 +107,7 @@
               <option value="Technology">Technology / Business Manager</option>
               <option value="Other">Other</option>
             </select>
-            <label for="country">Country/Region</label>
+            <label for="country">Country/Region <span>*</span></label>
             <select class="forma" name="country" id="country" required>
               <option value="Serbia" selected>Serbia</option>
               <option value="Bosnia">Bosnia</option>
@@ -117,7 +117,9 @@
               <option value="Qatar">Qatar</option>
               <option value="Other">Other</option>
             </select>
-            <label for="language">Primary development language</label>
+            <label for="language"
+              >Primary development language <span>*</span></label
+            >
             <select class="forma" name="language" id="language" required>
               <option value="Select_a_laguage" selected>
                 Select a language
