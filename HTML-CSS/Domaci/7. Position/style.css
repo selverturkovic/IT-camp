@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("backgroundimage.jpg");
+  min-height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 950px 160px;
+  background-position: top center;
+
+  position: sticky;
+  background-color: #3a2778;
+}
+.head {
+  background-color: #e2e8f0;
+  height: 32px;
+}
+.head p {
+  padding-top: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.head i {
+  color: rgb(0, 162, 255);
+}
+.head a {
+  margin-left: 8px;
+  text-decoration: none;
+  color: rgb(57, 98, 187);
+}
+.glavni {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.head1 {
+  color: white;
+  height: 55px;
+  position: relative;
+  padding: 100px;
+  margin: auto;
+}
+.img {
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 34px;
+}
+.head1 h3 {
+  position: absolute;
+  font-size: 25px;
+  top: 20px;
+  left: 70px;
+  font-weight: 900;
+}
+.head1 p {
+  position: absolute;
+  top: 30px;
+  left: 65%;
+}
+.head1 h1 {
+  font-weight: 400;
+  position: absolute;
+  left: 200px;
+  top: 120px;
+}
+.button-log-in {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.parent {
+  background-color: #f9f9fb;
+  background-image: url("background2.png");
+
+  background-size: 950px 160px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: top left;
+  height: 900px;
+  position: relative;
+  padding-left: 40px;
+  width: 98%;
+}
+.child-one {
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+.child-one h1 {
+  color: #79589f;
+  font-weight: 300;
+  padding-top: 24px;
+  padding-bottom: 14px;
+}
+.child-one p {
+  line-height: 22px;
+  padding-bottom: 50px;
+}
+.child-one hr {
+  margin-bottom: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.user {
+  font-size: x-large;
+  margin-right: 15px;
+}
+.child-two {
+  background-color: rgb(255, 255, 255);
+  width: 363px;
+  height: 96%;
+  float: left;
+  position: absolute;
+  left: 436px;
+  top: 17px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.forma {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.robot {
+  height: 70px;
+  width: 100%;
+  padding: 25px 10px;
+  margin: 20px auto 20px;
+  background: url(https://www.gstatic.com/recaptcha/api2/logo_48.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 250px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.055);
+  position: relative;
+}
+.robot1 {
+  font-size: 9px;
+  position: absolute;
+  left: 235px;
+  text-align: center;
+  bottom: 4px;
+}
+.button {
+  width: 100%;
+  padding: 15px;
+  background-color: #1969ca;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.child-two p {
+  color: rgb(107, 103, 103);
+  font-size: 13.2px;
+  line-height: 20px;
+}
