@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(199, 198, 198);
+}
+.parent {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  height: 70vh;
+  gap: 150px;
+  align-items: center;
+}
+.parent img {
+  height: 200px;
+  width: 200px;
+  flex-grow: 1;
+}
+.child {
+  flex-grow: 1;
+  height: 200px;
+  width: 200px;
+}
+.child h1 {
+  margin-bottom: 20px;
+}
+.child button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
