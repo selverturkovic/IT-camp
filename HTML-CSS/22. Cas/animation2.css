@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: aquamarine;
+  width: 500px;
+  height: 500px;
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: #ffa686;
+}
+.parent:hover .child {
+  /* background-color: rgb(112, 186, 38); */
+  /* animation: top-to-bottom 1.3s ease-in 0.5s forwards 3 alternate; */
+  /* top-to-bottom ime funkcije 1.3s koliko traje ease in funkcija po kojoj
+  ide 0.5s za koliko ce da krene forwards broj ponavljanja 3 alternate po 
+  istom se vraca  */
+  animation: top-to-bottom 2s ease-in 0.5s forwards infinite alternate;
+  /* animation-play-state: paused; */
+}
+@keyframes top-to-bottom {
+  0% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateX(100%);
+    background: #bf4e25;
+  }
+  50% {
+    transform: translate(50%, 50%);
+    background: #8e6b5f;
+  }
+  66% {
+    transform: translate(100%, 100%);
+    background: #ff7525;
+  }
+  100% {
+    transform: translate(0%, 100%);
+    background: #ff7525;
+  }
+}
