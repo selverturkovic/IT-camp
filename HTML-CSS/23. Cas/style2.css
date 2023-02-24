@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f08d;
+}
+
+.parent {
+  background-color: #97ffff;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 150px;
+}
+/* za stampanje bira se print i tu da se izmene stilovi */
+/* all and specificni uslovi */
+/*  do 500 za telefon od 500 do 684 za tablet
+ */
+@media (min-width: 501px) and (max-width: 681px) {
+  .parent {
+    background-color: #7fffd4;
+    color: #dc4848;
+  }
+}
+/* @media (width: 505px), (width: 700px) {
+  .parent {
+    background-color: #323937;
+    color: #522121;
+  }
+} */
+@media (max-width: 500px) {
+  .parent {
+    background-color: #fc7777;
+  }
+}
+/* @media (orientation: landscape) {
+  .parent {
+    background-color: rgb(186, 143, 143);
+  }
+} */
+@media (orientation: portrait) {
+  .parent {
+    background-color: #deb887;
+  }
+}
