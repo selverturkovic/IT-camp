@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c7b226b02f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <img src="logo.svg" alt="" />
+        <div class="ikonica">
+          <i class="fa-solid fa-moon icon"></i>
+          <span
+            ><i class="fa-solid fa-magnifying-glass glass"></i
+            ><input type="text" placeholder="Search for APIs"
+          /></span>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="">Create team</a></li>
+            <li><a href="">Add your API</a></li>
+            <li><a href="">Docs</a></li>
+            <li><a href="">Log in</a></li>
+            <li>
+              <a class="signup" href=""><span>Sign Up</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="covid">
+      <div class="worldmeter-covid">
+        <img class="img" src="images.webp" alt="" />
+        <div class="flex1">
+          <div class="world-meter">
+            <p>Worldometer Covid 19</p>
+            <img class="zastavica" src="zastavica.svg" alt="" />
+            <a href="">PREMIUM</a>
+          </div>
+          <p>By Shouvik | Updated a year ago | Health and Fitness</p>
+        </div>
+        <div class="popularity">
+          <p>
+            <i class="fa-solid fa-arrow-up-right-from-square icon1"></i
+            >Popularity
+          </p>
+          <h3>0.1 / 10</h3>
+        </div>
+        <div class="popularity">
+          <p>
+            <i class="fa-solid fa-arrow-up-right-from-square icon1"></i>Latency
+          </p>
+          <h3>35ms</h3>
+        </div>
+        <div class="popularity service-level">
+          <p>
+            <i class="fa-solid fa-arrow-up-right-from-square icon1"></i>Service
+            Level
+          </p>
+          <h3>0%</h3>
+        </div>
+      </div>
+
+      <div class="lista">
+        <ul>
+          <li><a href="">End points</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Tutorials</a></li>
+          <li><a href="">Discussions</a></li>
+          <li>
+            <a class="pricing" href="">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div>
+        <h1 class="paragraf">Worldometer Covid 19 API Documentation</h1>
+        <p class="paragraf">
+          This Freemium API that provides Covid 19 statistics from
+          https://www.worldometers.info/coronavirus/
+        </p>
+        <p class="paragraf">
+          This API periodically updates live data from
+          https://www.worldometers.info/coronavirus/#countries.
+        </p>
+      </div>
+      <div class="kontejnera3">
+        <div class="kontejner1 cont">
+          <div class="get">
+            <span class="span">
+              <i class="fa-solid fa-magnifying-glass glass glass1"></i>
+              <input class="input" type="text" placeholder="Search endpoints"
+            /></span>
+          </div>
+          <p class="par">
+            <a class="par" href=""> <span> GET</span> GetCountries</a>
+          </p>
+          <p class="par">
+            <a class="par" href=""> <span> GET</span> GetCovidstats</a>
+          </p>
+        </div>
+        <div class="kontejner1">
+          <div class="get">
+            <p><span> GET</span> GetCountries</p>
+            <button class="button">
+              <i class="fa-solid fa-arrow-right-arrow-left arow"></i>Test
+              Endpoint
+            </button>
+          </div>
+          <p class="parag paragr">
+            List all COVID-19 countries and their country codes. The country
+            code will be required to get Statistics for the specific country.
+          </p>
+          <p class="parag paragr">
+            Parameters : - sorted : Show countries sorted alphabetically.
+          </p>
+          <form action="./index.html">
+            <div class="X-rapid-api-keys">
+              <div>
+                <label for="text">Request URL</label>
+              </div>
+              <div>
+                <select name="text" id="text">
+                  <option value="rapidapi.com" selected>rapidapi.com</option>
+                </select>
+                <p class="required">REQUIRED</p>
+              </div>
+            </div>
+            <p class="get1">Header Parameters</p>
+
+            <div class="X-rapid-api-keys">
+              <div>
+                <label for="text">X-RapidAPI-key</label>
+                <p class="enum">ENUM</p>
+              </div>
+              <div>
+                <select name="text" id="text">
+                  <option value="SIGN-UP-FOR-KEY" selected>
+                    SIGN-UP-FOR-KEY
+                  </option>
+                </select>
+                <p class="required">REQUIRED</p>
+              </div>
+            </div>
+            <div class="X-rapid-api-keys">
+              <div>
+                <label for="text">X-RapidAPI-Host</label>
+                <p class="enum">STRING</p>
+              </div>
+              <div>
+                <input
+                  class="rapid"
+                  type="text"
+                  placeholder="worldometer-covid-19.p.rapidapi.com"
+                />
+                <p class="required">REQUIRED</p>
+              </div>
+            </div>
+            <p class="get1">Optinal Parameters</p>
+            <div class="X-rapid-api-keys">
+              <div>
+                <label for="text">sorted</label>
+                <p class="enum">BOOLEAN</p>
+              </div>
+              <div>
+                <select name="text" id="text">
+                  <option value="true" selected>True</option>
+                  <option value="False">False</option>
+                  <option value="do-not-include-in-request">
+                    Do not include in request
+                  </option>
+                </select>
+                <p class="required">OPTIONAL</p>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="kontejner1">
+          <div class="get">
+            <p>Code Snippets</p>
+            <p>Example Responses</p>
+            <p>results</p>
+          </div>
+          <select class="select" name="text" id="text">
+            <option value="Axioas" selected>(Node.js) Axios</option>
+            <option value="C">C</option>
+            <option value="java">Java</option>
+          </select>
+          <p class="parag">
+            const axios = require("axios"); const options = { method: 'GET',
+            url: 'https://worldometer-covid-19.p.rapidapi.com/GetCountries',
+            params: {sorted: 'true'}, headers: { 'X-RapidAPI-Key':
+            'SIGN-UP-FOR-KEY', 'X-RapidAPI-Host':
+            'worldometer-covid-19.p.rapidapi.com' } };
+            axios.request(options).then(function (response) {
+            console.log(response.data); }).catch(function (error) {
+            console.error(error); });
+          </p>
+        </div>
+      </div>
+      <div class="rating"><p>Rating: 5 - Votes: 1</p></div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer1">
+          <p>Home > Worldometer Covid 19</p>
+          <p>Language: us English</p>
+        </div>
+        <div class="footer2">
+          <p>2023 RapidAPI. All Rights Reserved.</p>
+          <div class="links links1">
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Learn</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
+          <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
