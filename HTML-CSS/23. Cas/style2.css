@@ -28,12 +28,7 @@ body {
     color: #dc4848;
   }
 }
-/* @media (width: 505px), (width: 700px) {
-  .parent {
-    background-color: #323937;
-    color: #522121;
-  }
-} */
+/*   */
 @media (max-width: 500px) {
   .parent {
     background-color: #fc7777;
