@@ -129,19 +129,21 @@ footer {
 }
 .krug {
   height: 150px;
-  width: 150px;
+  width: 15%;
   border-radius: 50%;
   background-color: black;
+  transition: transform 2s ease-out 0.5s;
 }
 .krug1 {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: start;
   transition: transform 2s ease-out 0.5s;
 }
 
-.krug1:hover {
-  transform: translateX(85%);
+.krug1:hover .krug {
+  transform: translateX(560%);
 }
 .krug2 {
   display: flex;
