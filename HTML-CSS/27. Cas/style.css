@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Mulish&display=swap");
+/* css selektor sluzi da oznacimo onaj element koji cemo da koristimo za stajlove */
+* {
+  margin: 0;
+  /* css box model okruzuje sve html elemente */
+  box-sizing: border-box;
+}
+/* svaki element ima to svojstvo */
+body {
+  background-color: #deb887;
+  font-family: "Abel", sans-serif;
+}
+
+.container1 {
+  background-color: rgb(222, 184, 135);
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+}
+.container2 {
+  background-color: rgb(135, 222, 139);
+  width: 150px;
+  height: 150px;
+}
