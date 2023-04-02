@@ -46,6 +46,12 @@ if (isNaN(broj1) || isNaN(broj2)) {
 //   console.log("Povrsina kvadrata je: " + broj1 * broj2);
 // }
 
+// if (isNaN(broj1) || isNaN(broj2) || broj1 <= 0 || broj2 <= 0) {
+//   console.log("Niste uneli broj ili ste uneli negativan broj ili 0!!! ");
+// } else if (broj1 != broj2 || broj1===broj2) {
+//   console.log("Povrsina pravougaonika ako su uneta dva razlicita broja (a*b), a kvadrata ako su uneta dva ista broja(a*a): " + broj1 * broj2);
+// }
+
 const x = +prompt("Unesi realan broj x: ");
 const y = Number(prompt("Unesi realan broj y: "));
 
