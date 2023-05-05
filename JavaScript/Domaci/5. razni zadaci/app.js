@@ -93,16 +93,22 @@ if (l[0] === "P" && l[1] === "y") {
 // 22. Write a JavaScript program to remove a character at the specified position in a given string and return the modified string.
 
 let m = "w3resources";
-if (m[5] === "o") {
-  console.log(m);
+let recenica1 = "";
+for (let i = 0; i < m.length; i++) {
+  if (m[5] === "o") {
+    continue;
+  } else {
+    recenica1 += m;
+  }
 }
+console.log(recenica1);
 // 23. Write a JavaScript program to create a new string from a given string by changing the position of the first and last characters. The string length must be broader than or equal to 1
 
 let k = prompt("Unesite string: ");
 
 let recenica = "";
 for (let i = 0; i < k.length; i++) {
-  if (k[k.length - 1] === "") {
+  if (k.length <= 1) {
     console.log("Uneli ste string od jednog slova");
   } else if (i === 0) {
     recenica += k[k.length - 1];
