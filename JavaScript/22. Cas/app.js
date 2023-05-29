@@ -54,7 +54,7 @@ console.log(newString("Madagaskar", "a"));
 // Domaci:
 // 1.	Izdvojiti N znakova sa desne strane (poslednjih N znakova) unetog stringa. Npr. za string 'Pera ima devojku' i N=5, dobija se 'vojku'.
 
-const recenica = (string, N) => {
-  return string.substr(string.length - N, string.length - 1);
-};
+const recenica = (string, N) =>
+  string.substr(string.length - N, string.length - 1);
+
 console.log(recenica("Pera ima devojku", 5));
