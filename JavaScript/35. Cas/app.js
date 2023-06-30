@@ -134,4 +134,4 @@ let arr1 = ["Hello", "World", "Hello", 3];
 
 let result = arr1.join("*");
 console.log(typeof result);
-console.log(result); // "Hello*World*JavaScript*Program"
+console.log(result);
