@@ -1,5 +1,5 @@
 // import BlogPost from "./BlogPost";
-import Avatar from "./Avatar";
+import Avatar from "./avatar";
 const Class5 = () => {
   return (
     <>
