@@ -1,0 +1,14 @@
+.box {
+  background: red;
+  width: 100%;
+  min-height: 150;
+}
+.myP {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.naslov {
+  font-size: 42px;
+  font-weight: 700;
+}
