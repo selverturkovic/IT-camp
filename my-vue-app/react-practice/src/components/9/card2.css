@@ -1,0 +1,25 @@
+.card2 {
+  height: 550px;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.img {
+  height: 300px;
+  width: 400px;
+}
+.div1 {
+  padding: 20px;
+}
+.category {
+  color: gray;
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.div3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
