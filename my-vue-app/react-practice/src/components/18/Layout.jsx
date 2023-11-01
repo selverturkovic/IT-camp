@@ -12,3 +12,5 @@ const Layout = ({ children, setPage }) => {
   );
 };
 export default Layout;
+//  http jezik preko koga komuniciraju. Tcp ip protokoli imaju pravila kako klienti i server komuniciraju
+// hypertext
