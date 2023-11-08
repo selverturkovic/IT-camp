@@ -3,11 +3,15 @@ const Text = ({ type = "h1", text }) => {
   const getTypeStyling = () => {
     switch (type) {
       case "h1":
-        return { fontSize: "20px", fontWeight: "bold" };
+        return { fontSize: "15px" };
       case "paragraph1":
-        return { textAlign: "center" };
+        return { fontWeight: "bold", fontSize: "20px" };
       case "paragraph2":
         return { fontSize: 24, lineHeight: 1.5 };
+      case "color":
+        return { margin: "10px" };
+      case "review":
+        return { padding: "10px" };
     }
   };
   return (
