@@ -7,13 +7,14 @@ import ReactDOM from "react-dom/client";
 import Class19 from "./components/19";
 import Class20 from "./components/20";
 import Class23 from "./components/23";
+import Class24 from "./components/24";
 // import Class13 from "./components/13";
 // import Class14 from "./components/14";
 // console.log(Example);
 // reactstrict mode 2 puta pamti
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Class23 />
+    <Class24 />
   </React.StrictMode>
 );
 // komponenta funkcija koja vraca jsx

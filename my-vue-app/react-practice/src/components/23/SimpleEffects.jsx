@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const SimpleEffects = () => {
   // react lifecycle useEffect asihrone operacije i koriscenje useEffect
   // dependency array [] ako je prazan samo na mountanje komponente se vidi ne na update
-  // za fecanje i asinhrone operacije se koristi  useEffect
+  // za fecanje(podataka) i asinhrone operacije(na neku kontrolu necega sto se radi) se koristi  useEffect
   const [state, setState] = useState("nesto");
   const [state2, setState2] = useState("nesto2");
   useEffect(() => {
