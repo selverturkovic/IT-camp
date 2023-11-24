@@ -3,7 +3,7 @@ import { formatUrl } from "./util";
 const quoteApi = axios.create({
   baseURL: "https://api.quotable.io",
 });
-
+// Osi
 export const getQuote = async (query, perPage) => {
   const url = formatUrl({ url: "/search/quotes", query, perPage });
 
