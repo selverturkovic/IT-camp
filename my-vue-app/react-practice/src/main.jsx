@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Class31 from "./components/31";
 // import Class15 from "./components/15";
 // import Class16 from "./components/16";
 // import Class17 from "./components/17/Index";
@@ -13,17 +14,15 @@ import ReactDOM from "react-dom/client";
 // import Class29 from "./components/29";
 // import SimpleContextProvider from "./components/29/SampleContext";
 // import MyComponent from "./components/29/MyComponent";
-import Class30 from "./components/30";
-import ContextProvider from "./components/30/ContextProvider";
+// import Class30 from "./components/30";
+// import ContextProvider from "./components/30/ContextProvider";
 // import Class13 from "./components/13";
 // import Class14 from "./components/14";
 // console.log(Example);
 // reactstrict mode 2 puta pamti
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ContextProvider>
-      <Class30 />
-    </ContextProvider>
+    <Class31 />
   </React.StrictMode>
 );
 // komponenta funkcija koja vraca jsx
