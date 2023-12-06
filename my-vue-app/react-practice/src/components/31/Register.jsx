@@ -9,6 +9,20 @@ import React, { useState } from "react";
 //za napredne:  koristiti add user rutu za register sa dummy json vebsajta
 
 function Register() {
+  //     const handleRegister=async ()=>{
+  // try{
+  //     const response = await fetch('https://dummyjson.com/users/add', {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/json' },
+  //     body: JSON.stringify({
+  //       firstName: 'Muhammad',
+  //       lastName: 'Ovi',
+  //       age: 250,
+  //       /* other user data */
+  //     })
+  //   })
+  // }}
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -38,14 +52,20 @@ function Register() {
     if (name.length < 3) {
       setNameError("Name is not correct");
       valid = false;
+    } else {
+      setNameError("");
     }
     if (!isEmailValid(email)) {
       setEmailError("email is very very wrong");
       valid = false;
+    } else {
+      setEmailError("");
     }
     if (isPasswordValid(password) !== "Ispravan") {
       setPasswordError(isPasswordValid(password));
       valid = false;
+    } else {
+      setPasswordError("");
     }
     if (confirmPassword !== password) {
       setConfirmPasswordError("Not match with password");

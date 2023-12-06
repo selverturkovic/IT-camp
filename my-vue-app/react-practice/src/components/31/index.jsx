@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./home";
 import Register from "./register";
 import Login from "./login";
+import UserContextProvider from "./UserContextProvider";
 // npm i react-router-provider
 
 // pravimo register, login, home page
@@ -13,7 +14,14 @@ import Login from "./login";
 //   { path: "/home/visit", element: <p>this is nested home route</p> },
 // ]);
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
+  {
+    path: "/",
+    element: (
+      <UserContextProvider>
+        <Home />
+      </UserContextProvider>
+    ),
+  },
   { path: "/register", element: <Register /> },
   { path: "/login", element: <Login /> },
 ]);
