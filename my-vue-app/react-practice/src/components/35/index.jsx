@@ -14,7 +14,9 @@ const Class35 = () => {
       {/* <SimpleComponent /> */}
       {/* <Find /> */}
       <ListItem />
-      <List />
+      <List
+        data={[{ title: "Prvi" }, { title: "Treci" }, { title: "Drugi" }]}
+      />
     </div>
   );
 };

@@ -9,14 +9,10 @@ function ListItem(props) {
 
   return (
     <div>
-      <label>
-        <input
-          type="checkbox"
-          checked={props.selected}
-          onChange={props.handleClick}
-        />
-        <p> {props.title}</p>
-      </label>
+      <p onClick={handleClick}>
+        <input type="checkbox" checked={selected} />
+        {title}
+      </p>
     </div>
   );
 }

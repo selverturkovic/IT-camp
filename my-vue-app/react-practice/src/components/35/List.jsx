@@ -1,20 +1,21 @@
 import React, { useState } from "react";
+import ListItem from "./ListItem";
 
 // imate prop koji se zove data koji je arraj objekata
 // i morate da napravite da je svaki list item selectable
 // znaci da vam treba state koji ovo snima
 // na click list itema se menja chekcbox vrednost tog itema
 
-// const data = [
-//   { id: 1, value: "my text 1" },
-//   { id: 2, value: "my text 2" },
-//   { id: 3, value: "my text 3" },
-//   { id: 4, value: "my text 4" },
-//   { id: 5, value: "my text 5" },
-// ];
 function List(props) {
-  const { data } = props;
-  const [selectedItems, setSelectedItems] = useState([]);
+  let { data } = props;
+  // data = [
+  //   { id: 1, value: "my text 1" },
+  //   { id: 2, value: "my text 2" },
+  //   { id: 3, value: "my text 3" },
+  //   { id: 4, value: "my text 4" },
+  //   { id: 5, value: "my text 5" },
+  // ];
+  const [selectedItems, setSelectedItems] = useState({});
 
   const handleItemClick = (id) => {
     // Kopirajte trenutni niz selektovanih stavki kako biste izbjegli izmjenu originalnog stanja
@@ -40,22 +41,28 @@ function List(props) {
   }
   return (
     <div>
-      <ul>
-        {data.map((item) => (
-          <li key={item.id}>
-            <label>
-              <input
-                type="checkbox"
-                checked={selectedItems.includes(item.id)}
-                onChange={() => handleItemClick(item.id)}
-              />
-              {item.value}
-            </label>
-          </li>
-        ))}
-      </ul>
+      {data.map((item, index) => {
+        return (
+          <ListItem
+            key={index}
+            title={item.title}
+            onSelect={() => handleItemClick(index)}
+          />
+        );
+      })}
     </div>
   );
 }
 
 export default List;
+
+// <li key={item.id}>
+//   <label>
+//     <input
+//       type="checkbox"
+//       checked={selectedItems.includes(item.id)}
+//       onChange={() => handleItemClick(item.id)}
+//     />
+//     {item.value}
+//   </label>
+// </li>
